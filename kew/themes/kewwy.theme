@@ -1,0 +1,45 @@
+# Theme created by kew-tip theme creator 
+# please save in to ${XDG_CONFIG_HOME}/kew/themes/ (typically ~/.config/kew/themes)
+# The name and author below will be displayed in kew
+#
+ 
+name=kew-tip-1779517146745
+author=Me
+
+accent=#ffffff
+text=#77767b
+textDim=#ffffff
+textMuted=#ffffff
+logo=#a51d2d
+header=#9a9996
+footer=#9a9996
+help=#a51d2d
+link=#ffffff
+nowplaying=#e01b24
+playlist.rownum=#77767b
+playlist.title=#ed333b
+playlist.playing=#a51d2d
+trackview.title=#77767b
+trackview.artist=#77767b
+trackview.album=#77767b
+trackview.year=#77767b
+trackview.time=#77767b
+trackview.visualizer=#c01c28
+trackview.lyrics=#f66151
+library.artist=#e01b24
+library.album=#ffffff
+library.track=#e01b24
+library.enqueued=#e01b24
+library.playing=#a51d2d
+search.label=#ffffff
+search.query=#ffffff
+search.result=#ed333b
+search.enqueued=#f66151
+search.playing=#a51d2d
+progress.filled=#a51d2d
+progress.empty=#a51d2d
+progress.elapsed=#f66151
+status.info=#ffffff
+status.warning=#ffffff
+status.error=#ffffff
+status.success=#ffffff

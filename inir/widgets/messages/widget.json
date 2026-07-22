@@ -1,0 +1,24 @@
+{
+    "name": "Messages",
+    "icon": "widgets",
+    "version": "1.0",
+    "author": "",
+    "description": "Custom desktop widget",
+    "category": "custom",
+    "main": "Messages.qml",
+    "defaultConfig": {
+        "placementStrategy": "free",
+        "widgetScale": 100,
+        "widgetOpacity": 100,
+        "colorMode": "auto",
+        "dim": 0,
+        "x": 200,
+        "y": 200
+    },
+    "configKeys": {
+        "label": { "type": "string", "default": "Messages", "label": "Widget label" },
+        "showIcon": { "type": "bool", "default": true, "label": "Show icon" }
+    },
+    "resizableAxes": { "uniform": "widgetScale" },
+    "defaultSize": { "width": 200, "height": 80 }
+}

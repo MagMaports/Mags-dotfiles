@@ -1,0 +1,29 @@
+input {
+    keyboard {
+        repeat-delay 200
+        repeat-rate 35
+        xkb {
+        }
+        numlock
+    }
+
+    touchpad {
+        tap
+    }
+
+    mouse {
+    }
+
+    trackpoint {
+    }
+    focus-follows-mouse max-scroll-amount="0%"
+}
+
+hotkey-overlay {
+}
+
+animations {
+    workspace-switch {
+        spring damping-ratio=1.2 stiffness=2000 epsilon=0.0001
+    }
+}

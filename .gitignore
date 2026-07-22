@@ -1,0 +1,11 @@
+.cache/
+.local/share/Trash/
+
+*.log
+
+.env
+
+.ssh/
+.gnupg/
+
+node_modules/

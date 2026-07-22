@@ -1,0 +1,132 @@
+/**
+ * @name iNiR Material
+ * @description Material Design Discord theme with Material You colors.
+ * @author refact0r (system24 base), iNiR (Material adaptation)
+ * @version 2.2.0
+ * @source https://github.com/end-4/iNiR
+ */
+
+/*
+ * Base theme import:
+ * - Prefer a local copy if present (more reliable on flaky networks / CSP).
+ * - Keep the remote import as fallback.
+ */
+@import url('system24.local.css');
+@import url('https://refact0r.github.io/system24/build/system24.css');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap');
+
+body {
+    --font: 'Oxanium';
+    --code-font: 'Oxanium';
+    font-weight: 400;
+    letter-spacing: -0.02ch;
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+    --border-hover-transition: 0.2s ease;
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --top-bar-height: 36px;
+    --top-bar-button-position: off;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+    --custom-window-controls: off;
+    --window-control-size: 14px;
+    --custom-dms-icon: off;
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--text-0);
+    --dms-icon-color-after: var(--text-0);
+    --custom-dms-background: color;
+    --dms-background-color: var(--accent-2);
+    --background-image: off;
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 0px;
+    --bg-floating: var(--bg-1);
+    --small-user-panel: on;
+    --unrounding: off;
+    --custom-spotify-bar: on;
+    --ascii-titles: off;
+    --ascii-loader: off;
+    --panel-labels: off;
+    --label-color: var(--text-4);
+    --label-font-weight: 500;
+}
+
+/* Material You Palette - Auto-generated */
+:root, :root:root, body, #app-mount {
+    --accent-1: #efe1e3;
+    --accent-2: #ddc0c3;
+    --accent-3: #d4afb3;
+    --accent-4: #cb9fa3;
+    --accent-5: #c28e94;
+    --accent-new: #ddc0c3;
+    --active: rgba(221, 192, 195, 0.20);
+    --active-2: rgba(221, 192, 195, 0.30);
+    --bg-1: #2c2929;
+    --bg-2: #211f1f;
+    --bg-3: #1d1b1b;
+    --bg-4: #151313;
+    --bg-floating: #373434;
+    --blue-1: #f3efef;
+    --blue-2: #e3dadb;
+    --blue-3: #d2c3c4;
+    --blue-4: #c1acad;
+    --blue-5: #b19799;
+    --border: rgba(152, 142, 143, 0.22);
+    --border-hover: rgba(176, 160, 161, 0.50);
+    --border-light: rgba(152, 142, 143, 0.12);
+    --brand-360: #ebdadc;
+    --brand-400: #e4cdd0;
+    --brand-500: #ddc0c3;
+    --brand-560: #d2acb0;
+    --brand-600: #c8989d;
+    --button-border: rgba(152, 142, 143, 0.16);
+    --colors: on;
+    --dnd: #eabcb6;
+    --green-1: #f2eae3;
+    --green-2: #e7d8ca;
+    --green-3: #dac3ae;
+    --green-4: #cdae92;
+    --green-5: #c29c79;
+    --hover: rgba(221, 192, 195, 0.10);
+    --idle: #d2c3c4;
+    --mention: linear-gradient(to right, color-mix(in hsl, #ddc0c3, transparent 90%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, #ddc0c3, transparent 95%) 40%, transparent);
+    --message-hover: rgba(221, 192, 195, 0.08);
+    --offline: #cfc4c4;
+    --online: #dac3ae;
+    --orange-1: #f9f3f3;
+    --orange-2: #eedbdb;
+    --orange-3: #e1bfbf;
+    --orange-4: #d4a3a3;
+    --orange-5: #c98b8b;
+    --purple-1: #f6f1f1;
+    --purple-2: #e8dbdc;
+    --purple-3: #d8c2c4;
+    --purple-4: #c8a9ac;
+    --purple-5: #ba9397;
+    --red-1: #fbf3f1;
+    --red-2: #f3d9d6;
+    --red-3: #eabcb6;
+    --red-4: #e19f96;
+    --red-5: #d9857b;
+    --reply: linear-gradient(to right, color-mix(in hsl, #cfc4c4, transparent 90%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, #cfc4c4, transparent 95%) 40%, transparent);
+    --streaming: #eaddd1;
+    --text-0: #3e2c2e;
+    --text-1: #cfc4c4;
+    --text-2: #cfc4c4;
+    --text-3: #cfc4c4;
+    --text-4: #cfc4c4;
+    --text-5: #988e8f;
+    --yellow-1: #ffffff;
+    --yellow-2: #f3eae9;
+    --yellow-3: #e5d1ce;
+    --yellow-4: #d7b8b3;
+    --yellow-5: #caa29c;
+}
+
+/* Material Design System */

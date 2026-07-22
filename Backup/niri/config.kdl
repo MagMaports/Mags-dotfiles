@@ -1,0 +1,16 @@
+// What?
+prefer-no-csd
+
+// Modules
+include "Modules/monitors.kdl"
+include "Modules/binds.kdl"
+include "Modules/autostart.kdl"
+include "Modules/layout.kdl"
+include "Modules/rules.kdl"
+include "Modules/misc.kdl"
+
+// Stubborn Noctalia Shit
+include "noctalia.kdl"
+
+// !!DISCLAIMER!!
+// I am NOT a professional. I only organized for FUN and I will NOT be responsible if ANYTHING breaks! I might not update this regularly.
